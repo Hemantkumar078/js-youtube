@@ -25,7 +25,8 @@ myarr1.shift();// to remove an element at start
 let myarr6=myarr1.slice(1,3);// it return elements from index of [x,y) (y excluded)(not do manipulation on orignal array)
 console.log(myarr6);
 console.log(myarr1);
-let myarr7=myarr1.splice(1,3);// it extract elements from index [x,y](y included and delete them from x to y in origen array) and return it
+let myarr7=myarr1.splice(2,3,-1,-2);// it extract elements from index  splice(x,y,x1,x2,x3..xy) it extract y number fom undex x to x+y or if we want want we can replace it with other numbers
+
 console.log(myarr7);
 console.log(myarr1);
 // // array
@@ -64,7 +65,7 @@ console.log(myarr1);
 // console.log("B ", myArr);
 
 
-// const myn2 = myArr.splice(1, 3)
-// console.log("C ", myArr);
-// console.log(myn2);
+//const myn2 = myArr.splice(2, 3)
+ //console.log("C ", myArr);
+ //console.log(myn2);
 

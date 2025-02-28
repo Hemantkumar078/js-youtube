@@ -4,8 +4,8 @@
 // object literals
 
 const mySym = Symbol("key1")
-
-
+let obj=new Object({name:"shubham"});
+console.log(obj);
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",

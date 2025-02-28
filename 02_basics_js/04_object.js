@@ -34,15 +34,15 @@ const obj4 = {5: "a", 6: "b"}
 
 const users = [
     {
-        id: 1,
+        id1: 1,
         email: "h@gmail.com"
     },
     {
-        id: 1,
+        id2: 1,
         email: "h@gmail.com"
     },
     {
-        id: 1,
+        id3: 1,
         email: "h@gmail.com"
     },
 ]
@@ -51,7 +51,7 @@ users[1].email
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));// to get all keys of an object as array 
-// console.log(Object.values(tinderUser));//to get all values of an object as array
+ console.log(Object.values(regularUser));//to get all values of an object as array
  //console.log(Object.entries(tinderUser));//to get all values of an object as entries  as [['key','values'],[],[],..]
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));// just to check is there any key exits of this name

@@ -4,7 +4,7 @@ const myObject = {
     rb: "ruby",
     swift: "swift by apple"
 }
-
+//that for in loops gives itrating on keys gives keys (but for..of gives values) here for..in applicable on objects here
 for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
@@ -22,5 +22,5 @@ for (const key in programming) {
 // map.set('IN', "India")
 
 // for (const key in map) {
-//     console.log(key);
+//     console.log(key);//it gives nothing because for..in loops not desinged for maps or maps are not iteartable
 // }

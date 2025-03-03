@@ -29,7 +29,28 @@ map.set('Fr', "France")
 // for (const [key, value] of map) {//destructure the key value pair[key,value] values (but it not works in for..in loops )
 //     console.log(key, ':-', value);
 // }
-
+const myMap = new Map([
+    ['a', 1],
+    ['b', 2],
+    ['c', 3]
+  ]);//this way also can insert
+  
+  for (const entry of myMap) {
+    console.log(entry); // ['a', 1], ['b', 2], ['c', 3]
+  }
+//   for (const [key, value] of myMap.entries()) {
+//     console.log(key, value);
+//   }
+  
+//   for (const key of myMap.keys()) {
+//     console.log(key);
+//   }
+  
+//   for (const value of myMap.values()) {
+//     console.log(value);
+//   }
+//   console.log(myMap.keys()) //gives all key {'a','b','c'}
+//   console.log(myMap.values())//gives all values{1,2,3}
 const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'

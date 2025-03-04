@@ -37,7 +37,8 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
-
+//In filter it returns only truthy or falsy values that means it only checks we need that value of array or not it not return the modified values
+//it returns truthy or falsy value based on that .filter decides we need to take that value or not
   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
   userBooks = books.filter( (bk) => { 

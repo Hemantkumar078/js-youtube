@@ -4,7 +4,8 @@ const myObject = {
     rb: "ruby",
     swift: "swift by apple"
 }
-//that for in loops gives itrating on keys gives keys (but for..of gives values) here for..in applicable on objects here
+//for..in loops works on objects
+//that for in loops gives iterating on keys gives keys (but for..of gives values) here for..in applicable on objects here
 for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
@@ -14,7 +15,7 @@ const programming = ["js", "rb", "py", "java", "cpp"]
 for (const key in programming) {
     //console.log(programming[key]);
 }
-
+//but for in loops not works on maps
 // const map = new Map()
 // map.set('IN', "India")
 // map.set('USA', "United States of America")

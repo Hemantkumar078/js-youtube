@@ -3,11 +3,11 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // coding.forEach( function (val){
 //     console.log(val);
 // } )
-
-// coding.forEach( (item) => {
-//     console.log(item);
-// } )
-
+//forEach loops tooks (value,key,whole array value) .forEach(callbackfunction)
+coding.forEach( (item) => {
+    //console.log(item); //here inside forEach loop i can only able to iterate there not able to change
+} )
+//console.log(coding);
 // function printMe(item){
 //     console.log(item);
 // }

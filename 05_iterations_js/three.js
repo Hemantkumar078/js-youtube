@@ -55,7 +55,7 @@ const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'
 }
-
+//objects not iteratable in for..of loops
 // for (const [key,values] of myObject) { //objects not iteratable in for for of loops 
 //     console.log(key);
     

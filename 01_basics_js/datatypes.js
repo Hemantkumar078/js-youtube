@@ -16,7 +16,7 @@
 // let isLoggedIn = false
 // let state;
 
-// // number => 2 to power 53
+// // number => 2 to power 53//9*10^15
 // // bigint
 // // string => ""
 // // boolean => true/false

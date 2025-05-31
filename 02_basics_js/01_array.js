@@ -16,11 +16,12 @@ myarr1.unshift(0);// to insert an element at start (but its not prefrable becaus
 myarr1.shift();// to remove an element at start 
 // console.log(myarr1);
 // console.log(myarr1.length);
-// console.log(myarr1.indexOf("mohan"));// indexOf to find particular element
+// console.log(myarr1.indexOf("mohan"));// indexOf to find particular element//if not present it return -1
 // console.log(myarr1.indexOf(2));
 // console.log(myarr1.includes(5));//chk if particulare element present in the array or not return true or false
-// let myarr5=myarr1.join();// it return the string conversion of all elemnts in myarr1 in arr format (['0','1',...] like that)
-// console.log(typeof myarr5);
+ let myarr5=myarr1.join();// it return a string by joining all the elements of the array with a comma by default("a,b,c,d,e")//it does not change the original array
+ //we can also pass a separator inside it like myarr1.join('-') it will return a string with '-' as separator
+console.log( myarr5);
 // console.log(typeof myarr1);
 let myarr6=myarr1.slice(1,3);// it return elements from index of [x,y) (y excluded)(not do manipulation on orignal array)
 console.log(myarr6);
@@ -68,4 +69,14 @@ console.log(myarr1);
 //const myn2 = myArr.splice(2, 3)
  //console.log("C ", myArr);
  //console.log(myn2);
+//push, pop, shift, unshift, indexOf, includes, join, slice, splice
+//push() inserts one or more elements at the end of an array and returns the new length of the array.
+//pop() removes the last element from an array and returns that element. This method changes the length of the array.
+//shift() removes the first element from an array and returns that removed element. This method changes the length of the array.
+//unshift() adds one or more elements to the beginning of an array and returns the new length of the array.
+//indexOf() returns the first index at which a given element can be found in the array, or -1 if it is not present.
+//includes() determines whether an array includes a certain element, returning true or false as appropriate.
+//join() joins all elements of an array into a string, separated by a specified separator (default is comma).
+//slice() returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included).
+//splice() changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. It returns an array containing the deleted elements, if any.
 

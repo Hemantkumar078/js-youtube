@@ -50,3 +50,13 @@ console.log(Array.of(101,102,103));
 // let score3 = 300
 
 // console.log(Array.of(score1, score2, score3));
+//concat, flat, isArray, from, of
+// concat() is used to merge two or more arrays. It returns a new array without changing the existing arrays.
+// flat() creates a new array with all sub-array elements concatenated into it recursively up to the specified depth. If no depth is specified, it defaults to 1.
+//Array.isArray() checks if a value is an array. It returns true if the value is an array, otherwise false.
+// Array.from() creates a new array from an array-like or iterable object. It can also take a map function as a second argument to apply to each element.
+// Array.of() creates a new array instance with a variable number of arguments, regardless of the number or type of arguments passed.
+// It is useful for creating arrays from a set of elements.
+// [...array1, ...array2] is a spread operator syntax that creates a new array by combining elements from array1 and array2.
+// It is a concise way to merge arrays without using the concat() method.
+// The spread operator can also be used to create shallow copies of arrays or to pass array elements as individual arguments to functions.

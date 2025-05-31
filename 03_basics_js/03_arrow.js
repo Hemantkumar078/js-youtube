@@ -9,12 +9,12 @@ const user = {
 
 }
 
-//user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage();
+user.username = "sam"
+user.welcomeMessage()
 
- //console.log(this);//it gives empty object but if i do the same thing in browsers's console so there global object is window so properties and methods of windowa's returned in console of browser
-
+ //console.log(this);//it gives empty object but if i do the same thing in browsers's console so there global object is window so properties and methods of window's returned in console of browser
+ 
 // function chai(){
 //     let username = "hitesh"
 //     console.log(this.username);//gives undefined because there no object and no key inside function accessing any key gives undefined

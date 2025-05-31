@@ -8,4 +8,7 @@
 ( (name) => {//unnamed iife 
     console.log(`DB CONNECTED TWO ${name}`);
 } )('hitesh');
+//(function defination)(parameters passed from there); then semicolon to stop
+// console.log(chai);// gives error because its not defined outside the iife
+// console.log(chai());// gives error because its not defined outside the iife
 

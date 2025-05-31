@@ -49,8 +49,7 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-
-console.log(addone(5))
+console.log(addone(5));
 
 function addone(num){//this type of function declaration we can call/access anytime above or bellow it (if its defination defined before to call it)
     return num + 1

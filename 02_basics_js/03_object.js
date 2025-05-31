@@ -18,12 +18,14 @@ const JsUser = {
 }
 
 // console.log(JsUser.email)
-// console.log(JsUser["email"])
+console.log(JsUser["email"])
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
+//delete jsUser.email // it will delete the email property from the JsUser object;
+// Object.freeze(JsUser)//it will not allow to change the existing properties or add new properties or remove existing properties
+//Object.seal(JsUser) // it will not allow to add or remove new properties but allow to change the existing properties
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
 

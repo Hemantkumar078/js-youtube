@@ -23,7 +23,8 @@ const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
- //const obj3 = { obj1, obj2 }
+ const obj3 = { obj1, obj2 }
+ console.log(obj3); // it will return an object with key as obj1 and obj2 and their values are the objects obj1 and obj2
  //const obj3 = Object.assign( obj1, obj2, obj4) it assign function put all objects key value pairs inside first object1(its added other objects  in orignal obj1 too ) and return new object
  //console.log(obj1===obj3);//true;
 // const obj3 = Object.assign({}, obj1, obj2, obj4)// it assign 
@@ -47,7 +48,7 @@ const users = [
     },
 ]
 
-users[1].email
+console.log(users[1].email);
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));// to get all keys of an object as array 
@@ -71,7 +72,7 @@ const {courseInstructor: instructor} = course// here we de-structuring the cours
  //console.log(courseInstructor);
 console.log(instructor);
 
-// { //json file  this is the way json (javascript noatation) files written there key in string format("")
+// { //json file  this is the way json (javascript object noatation) files written there key in string format("")
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
@@ -82,3 +83,11 @@ console.log(instructor);
     {},
     {}
 ]
+//Object.assign({}, {}, {}) // this is the way to merge objects in javascript
+//Object.keys() // this is the way to get an array of keys of an object in javascript
+//Object.values() // this is the way to get an array of values of an object in javascript
+//Object.entries() // this is the way to get an array of entries of an object in javascript
+//Object.hasOwnProperty() // this is the way to check if an object has a property or not in javascript
+//Object.freeze() // this is the way to freeze an object in javascript
+//Object.seal() // this is the way to seal an object in javascript
+//Object.create() // this is the way to create an object in javascript

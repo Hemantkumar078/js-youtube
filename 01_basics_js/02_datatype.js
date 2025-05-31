@@ -33,7 +33,8 @@ const myFunction = function(){
 }
 
 // console.log(typeof anotherId);//symbol
-// console.log(typeof myObj);//object
+console.table([...heros]);
+ console.table(myObj);//object
 // console.log(typeof heros);//array
 // console.log(typeof myFunction);//function
 // https://262.ecma-international.org/5.1/#sec-11.4.3

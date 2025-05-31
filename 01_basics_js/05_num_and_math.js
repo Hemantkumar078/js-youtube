@@ -18,7 +18,7 @@ const hundreds = 1000000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
-// console.log(Math);
+ console.log(Math);
 // console.log(Math.abs(-4));
 // console.log(Math.round(4.6));//5
 // console.log(Math.ceil(4.2));//5
@@ -28,7 +28,7 @@ const arr=[1,2,3,6,8.2,4,5];
 console.log(Math.max(...arr));
 // console.log(Math.max(4, 3, 6, 8));
 
-console.log(Math.random());
+console.log(Math.random());//[0,1)
 console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
 

@@ -8,11 +8,11 @@ coding.forEach( (item) => {
     //console.log(item); //here inside forEach loop i can only able to iterate there not able to change
 } )
 //console.log(coding);
-// function printMe(item){
-//     console.log(item);
-// }
+function printMe(item){
+    console.log(item);
+}
 
-// coding.forEach(printMe)//just write the callback function (don't need to write as executable code ())
+coding.forEach(printMe)//just write the callback function (don't need to write as executable code () else it give error)
 
 // coding.forEach( (item, index, arr)=> {//it took(or give) three values (item ,index and whole array)
 //     console.log(item, index, arr);

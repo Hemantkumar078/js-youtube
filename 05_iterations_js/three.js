@@ -11,7 +11,7 @@ for (const num of arr) {// for of loops , give the direct values
 
 const greetings = "Hello world!"
 for (const greet of greetings) {
-    //console.log(`Each char is ${greet}`)
+    console.log(`Each char is ${greet}`)
 }
 
 // Maps
@@ -49,8 +49,8 @@ const myMap = new Map([
 //   for (const value of myMap.values()) {
 //     console.log(value);
 //   }
-//   console.log(myMap.keys()) //gives all key {'a','b','c'}
-//   console.log(myMap.values())//gives all values{1,2,3}
+ //console.log(myMap.keys()) //gives all key {'a','b','c'}
+   //console.log(myMap.values())//gives all values{1,2,3}
 const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'

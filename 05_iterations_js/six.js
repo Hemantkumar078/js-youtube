@@ -9,8 +9,10 @@
 // console.log(values);
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-//In filter it returns only truthy or falsy values that means it only checks we need that value of array or not it not return the modified values
-//it returns truthy or falsy value based on that .filter decides we need to take that value or not
+//In filter it returns only truthy or falsy values that means it only checks 
+// we need that value of array or not it not return the modified values
+//it returns truthy or falsy value based on that .filter decides we need to take 
+// that value or not
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )

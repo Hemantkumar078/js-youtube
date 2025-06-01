@@ -30,9 +30,9 @@ let val1;
 // val1 = null ?? 10
 // val1 = undefined ?? 15
 val1 = null ?? 10 ?? 20
-
-
-
+//when null or undefined is encountered, it will return the next value
+// if val1 is null or undefined, it will return 10, otherwise it will return the value of val1
+//
 console.log(val1);
 
 // Terniary Operator
